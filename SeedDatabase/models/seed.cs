@@ -8,5 +8,7 @@ namespace SeedDatabase.models
         public string Title { get; set; }
         public string Description { get; set; }
         public int ImageID { get; set; }
+
+        public int versionID { get; set; }
     }
 }
